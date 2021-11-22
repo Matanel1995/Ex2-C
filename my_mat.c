@@ -20,7 +20,7 @@ void init_mat(int(*arr_ptr)[Max]){
     }
 }
 
-int shortest_route(int(*arr_ptr)[Max],int i,int j){
+void shortest_route(int(*arr_ptr)[Max],int i,int j){
     for (int k=0 ; k<Max ; k++){
         for (int ii=0; ii<Max; ii++){
             for (int jj = 0; jj < Max; jj++){
