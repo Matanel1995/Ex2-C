@@ -25,7 +25,7 @@ int main(){
             int user_input1 , user_input2;
             scanf("%d", &user_input1);
             scanf("%d", &user_input2);
-            printf("%d\n" , shortest_route(mat_ptr,user_input1,user_input2));
+            shortest_route;
         }
         scanf("%c",&user_input);
     }

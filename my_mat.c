@@ -41,8 +41,8 @@ int shortest_route(int(*arr_ptr)[Max],int i,int j){
         }
     }
     if (*(*(arr_ptr + i)+j) ==0)
-        return -1;
-    return *(*(arr_ptr + i)+j);
+        printf("%d",-1);
+    printf("%d",*(*(arr_ptr + i)+j));
 }
 
 void path_exist(int(*arr_ptr)[Max], int i,int j){
