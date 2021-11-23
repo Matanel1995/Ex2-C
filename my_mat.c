@@ -40,9 +40,14 @@ void shortest_route(int(*arr_ptr)[Max],int i,int j){
             }
         }
     }
-    if (*(*(arr_ptr + i)+j) ==0)
-        printf("%d",-1);
-    printf("%d",*(*(arr_ptr + i)+j));
+    if (i == 0 && j==0){
+        return;
+    }
+    if (*(*(arr_ptr + i)+j) == 0)
+        printf("%d\n",-1);
+    else{
+        printf("%d\n",*(*(arr_ptr + i)+j));
+    }
 }
 
 void path_exist(int(*arr_ptr)[Max], int i,int j){
